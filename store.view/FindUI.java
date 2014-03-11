@@ -44,9 +44,9 @@ public class FindUI extends AbstractUI{
 		for(int i=0; i<list.size(); i++){
 			Store store = list.get(i);
 			System.out.println("음식점명 : " + store.getName());
-			System.out.println("위          도 : " + store.getLat());
-			System.out.println("경          도 : " + store.getLng());
-			System.out.println("메          뉴 : " + store.getMenu());
+			System.out.println("위    도 : " + store.getLat());
+			System.out.println("경    도 : " + store.getLng());
+			System.out.println("메    뉴 : " + store.getMenu());
 		}
 	}
 	
